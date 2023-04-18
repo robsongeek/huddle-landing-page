@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://your-solution-url.com)
-- Live Site URL: [Page](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/robsongeek/huddle-landing-page.git)
+- Live Site URL: [Page](https://robsongeek.github.io/huddle-landing-page/)
 
 ## My process
 
