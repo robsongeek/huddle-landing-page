@@ -1,0 +1,143 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap'); */
+
+
+.container {
+    height: 100vh;
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-size: cover;
+    background-color: var(--Violet);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.container .info-icons .info h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+.container .info-icons .info p {
+    /* margin-bottom: 50px; */
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-weight: 400;
+    padding: 35px 0;
+}
+
+.container .info-icons {
+    position: relative;
+
+    margin: 30px;
+}
+
+.container .info-icons .info a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    background-color: #fff;
+    padding: 20px 50px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.container .info-icons .info a:hover {
+    background-color: var(--Soft-Magenta);
+    color: #fff;
+}
+
+.container .info-icons .icons {
+    /* background-color: blue; */
+    position: absolute;
+    right: 50px;
+    bottom: -120px;
+    font-size: 20px;
+}
+
+.container .info-icons .icons a {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.container .info-icons .icons a:hover {
+    color: var(--Soft-Magenta);
+    border: 1px solid var(--Soft-Magenta);
+}
+
+
+@media (max-width: 375px) {
+    .container {
+        height: 100vh;
+        background: url(../images/bg-mobile.svg) center center no-repeat;
+        background-size: cover;
+        background-color: var(--Violet);
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .container .info-icons {
+        /* margin: 30px; */
+        /* padding: 30px; */
+
+    }
+
+    .container .image-desktop .logo img {
+        width: 130px;
+        margin-top: 30px;
+    }
+
+    .container .image-desktop .illustration-mockups img {
+        width: 250px;
+        /* height: 300px; */
+
+    }
+
+    .container .info-icons {
+
+        margin: 0 30px;
+        padding: 0;
+    }
+
+    .container .info-icons .icons {
+        position: absolute;
+        bottom: -70px;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    .container .info-icons .info h1 {
+        text-align: center;
+        font-size: 20px;
+        /* margin: 10px 0; */
+    }
+
+    .container .info-icons .info p {
+        text-align: center;
+        font-size: 15px;
+        padding: 10px 0;
+
+    }
+
+    .container .info-icons .info a {
+        display: inline-block;
+        text-align: center;
+        padding: 20px 30px;
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+
+
+    /* .container .info-icons .btn-register{
+        display: block;
+        text-align: center;
+        align-items: center;
+        width: 150px;
+        width: 130px;
+        
+    } */
+}
